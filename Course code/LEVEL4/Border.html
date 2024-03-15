@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border Property</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .pad{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing:border-box;
+    }
+    #first{
+        border: 2px solid;
+        border-radius: 5px 7px 15px 8px; /* value can be of four sides individually, starts from left corner*/
+        background-color: slateblue;
+    }
+    #second{
+        border: 3px dashed red;
+        background-color: mediumorchid  
+    }
+    </style>
+    
+</head>
+<body>
+    <div id="first" class="pad">first</div>
+    <div id="second" class="pad">second</div>
+</body>
+</html>
